@@ -9,9 +9,10 @@ export default function RootLayout() {
         colors: {
             ...DarkTheme.colors,
             primary: "white",
+            card: "#101010",
         }
     }
-    return (
+    return ( 
         <ThemeProvider value={myTheme}>
             <Slot />
         </ThemeProvider>
