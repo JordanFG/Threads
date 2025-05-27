@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
-      <Text>Feed</Text>
+    <View >
+      <Text className='text-3xl font-bold text-blue-50 m-5'>Feed</Text>
     </View>
   );
 }

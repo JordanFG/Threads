@@ -1,5 +1,8 @@
+import "../../global.css";
+
 import { Stack, Slot } from "expo-router";
 import { DarkTheme, ThemeProvider } from "@react-navigation/native";
+
 
 
 export default function RootLayout() {
